@@ -1,0 +1,126 @@
+{% extends 'tour/index.html' %}
+{% load static %}
+{% block content %}
+
+<!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Destinations</h2>
+          <p>These are our destinations at Babetie expedition. Enjoy travelling with us.</p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4 portfolio-container">
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion2.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detail' %}" title="More Details">Macheme Six Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion4.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailone' %}" title="More Details">Macheme Seven Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion3.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailtwo' %}" title="More Details">Lemosho Eight Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion4.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailthree' %}" title="More Details">Lemosho Seven Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion3.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailfour' %}" title="More Details">Umbwe</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion3.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailsix' %}" title="More Details">Marangu Six Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion3.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailseven' %}" title="More Details">Marangu Five Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion3.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detaileight' %}" title="More Details">Rongai Six Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion3.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailnine' %}" title="More Details">Rongai Seven Days</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'img/portfolio/lion2.jpg' %}" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="{% url 'product_detailfive' %}" title="More Details">North Greras</a></h4>
+                  <p>Read more...</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+          </div><!-- End Portfolio Container -->
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+{% endblock %}

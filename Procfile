@@ -1,0 +1,1 @@
+web: gunicorn babetie.wsgi --log-file -

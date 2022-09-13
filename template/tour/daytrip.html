@@ -1,0 +1,51 @@
+{% extends 'tour/index.html' %}
+{% load static %}
+{% block content %}
+
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Day Trips</h2>
+          <p></p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="{% static 'img/team/team-1.jpg' %}" class="img-fluid" alt="">
+              <h4>Marangu Daytrip Mandara and go back in Moshi</h4>
+              <span><strong>$200</strong></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="{% static 'img/team/team-22.jpg' %}" class="img-fluid" alt="">
+              <h4>Materuni Waterfalls</h4>
+              <span><strong>$200</strong></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'img/team/team-33.jpg' %}" class="img-fluid" alt="">
+              <h4>Lake Challa Daytrip</h4>
+              <span><strong>$200</strong></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="{% static 'img/team/team-44.jpg' %}" class="img-fluid" alt="">
+              <h4>Kikeletwa Hotspring Water</h4>
+              <span><strong>$200</strong></span>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+{% endblock %}
